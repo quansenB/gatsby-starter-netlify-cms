@@ -507,7 +507,7 @@ export default KursPage;
 
 export const pageQuery = graphql`
   query KursPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "kurs-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
         image {
